@@ -8,9 +8,23 @@
     "moduleResolution": "node",
     "removeComments": false,
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
+    "suppressImplicitAnyIndexErrors": true,
+    "rootDir": "./app",
+    "outDir": "./app/build"
   },
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "filesGlob": [
+    "app/**/*.ts"
+  ],
+  "files": [
+    "app/app.component.ts",
+    "app/boot.ts",
+    "app/demo.ts",
+    "app/osman/osman.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
 }

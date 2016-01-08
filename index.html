@@ -10,13 +10,15 @@
   <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
   <script src="node_modules/angular2/bundles/router.dev.js"></script>
   <script>
-      System.config({packages: {app: {format: 'register',defaultExtension: 'js'}}});
-      System.import('app/boot')
+      System.config({
+        baseURL: '/',
+        packages: {app: {format: 'register',defaultExtension: 'js'}}});
+      System.import('app/build/boot')
             .then(null, console.error.bind(console));
   </script>
 </head>
 <body>
-  <my-app>Loading...</my-app>
+  <ornek-uygulama>Yükleniyor...</ornek-uygulama>
 </body>
 
 </html>

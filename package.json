@@ -1,11 +1,11 @@
 {
-  "name": "angular2-go",
+  "name": "angular2-ornek",
   "version": "0.0.1",
   "scripts": {
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
-    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
+    "start": "concurrent \"npm run tsc:w \" \"npm run lite\" "
   },
   "dependencies": {
     "angular2": "^2.0.0-beta.0",
@@ -21,4 +21,5 @@
     "lite-server": "^1.2.0",
     "typescript": "^1.7.3"
   }
+
 }
