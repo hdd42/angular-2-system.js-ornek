@@ -13,8 +13,8 @@ import {RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
   // { path: '/', redirectTo: ['Dashboard'] },
 ])
 export class AppComponent {
-version:string = ''
-  constructor(){
+  version: string = ''
+  constructor() {
     this.version = '2';
   }
- }
+}
