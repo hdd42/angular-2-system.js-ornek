@@ -1,20 +1,21 @@
-import {Component} from 'angular2/core';
-import {RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
+import {Component} from '@angular/core';
+import {ROUTER_DIRECTIVES, RouteConfig} from '@angular/router-deprecated';
 
 
 @Component({
-  selector: 'ornek-uygulama',
-  template: `
+    selector: 'ornek-uygulama',
+    template: `
     <h2>Angular {{version}} </h2>
     `,
-  directives: [ROUTER_DIRECTIVES]
+    directives: [ROUTER_DIRECTIVES]
 })
 @RouteConfig([
-  // { path: '/', redirectTo: ['Dashboard'] },
+    // { path: '/', redirectTo: ['Dashboard'] },
 ])
 export class AppComponent {
-  version: string = ''
-  constructor() {
-    this.version = '2';
-  }
+    version:string = ''
+
+    constructor() {
+        this.version = '2';
+    }
 }

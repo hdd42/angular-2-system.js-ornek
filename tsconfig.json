@@ -13,16 +13,8 @@
     "outDir": "./app/build"
   },
   "exclude": [
-    "node_modules"
-  ],
-  "filesGlob": [
-    "app/**/*.ts"
-  ],
-  "files": [
-    "app/app.component.ts",
-    "app/boot.ts"
-  ],
-  "atom": {
-    "rewriteTsconfig": true
-  }
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ]
 }
