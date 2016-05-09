@@ -1,4 +1,5 @@
 # Getting Started
+1. Angular 2 Bootstrap 3 / AdminLte starter
 
 1. System.js ile ornek angular2 projesi (Angular 2 Rc1)
 1. fork from https://github.com/johnpapa/angular2-go
