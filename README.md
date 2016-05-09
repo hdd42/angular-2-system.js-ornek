@@ -1,6 +1,6 @@
 # Getting Started
 
-1. System.js ile ornek angular2 projesi
+1. System.js ile ornek angular2 projesi (Angular 2 Rc1)
 1. fork from https://github.com/johnpapa/angular2-go
 
 1. uygulamanin ihtiyaci olan paketleri yukler : `npm i`
