@@ -2,9 +2,16 @@
 <head>
     <title>Angular 2 QuickStart</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="node_modules/admin-lte/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+     <link rel="stylesheet" href="node_modules/admin-lte/dist/css/AdminLTE.min.css">
+     <link rel="stylesheet" href="node_modules/admin-lte/dist/css/skins/skin-blue.min.css">
     <!-- 1. Load libraries -->
     <!-- Polyfill(s) for older browsers -->
     <script src="node_modules/es6-shim/es6-shim.min.js"></script>
@@ -16,13 +23,23 @@
     <!-- 2. Configure SystemJS -->
     <script src="systemjs.config.js"></script>
     <script>
-        System.import('app').catch(function(err){ console.error(err);  });
-    </script>
-
+        System.import('app').catch(function(err){ console.error(err);  });</script>
 </head>
 
 <!-- 3. Display the application -->
-<body >
-<ornek-uygulama>Loading...</ornek-uygulama>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+    <ornek-uygulama>Loading...</ornek-uygulama>
+
+    <div class="control-sidebar-bg"></div>
+</div>
+
+
+<!-- jQuery 2.2.0 -->
+<script src="node_modules/admin-lte/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="node_modules/admin-lte/bootstrap/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="node_modules/admin-lte/dist/js/app.min.js"></script>
 </body>
 </html>
